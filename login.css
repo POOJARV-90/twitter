@@ -17,7 +17,7 @@
 }
 
 #screen>form{
-    width: 45%;
+    width: 42%;
     /* height: 500px; */
      margin-top: 100px;
     margin: auto;
@@ -64,6 +64,10 @@
    
 }
 
+#screen>form>div:nth-child(3):hover{
+    background-color: #ecf7fc;
+}
+
 #screen>form>div:nth-child(4){
     margin-top: 3%;
     width: 50%;
@@ -76,6 +80,10 @@
     /* text-align: center; */
     padding: 10px 0px  10px 70px;
    
+}
+
+#screen>form>div:nth-child(4):hover{
+    background-color: #e9edef;
 }
     
 #margintop{

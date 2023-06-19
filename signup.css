@@ -17,7 +17,7 @@
 }
 
 #screen>form{
-    width: 45%;
+    width: 42%;
     /* height: 500px; */
      margin-top: 100px;
     margin: auto;
@@ -61,9 +61,16 @@
    margin-top: 2%;
    
   margin-bottom:20px ;
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
     padding: 5px 30px;
-   
+
+}
+
+
+
+#screen>form>div:nth-child(3):hover{
+    background-color: #ecf7fc;
 }
 
 #screen>form>div:nth-child(4){
@@ -80,6 +87,10 @@
     padding: 10px 0px  10px 70px;
    
 }
+#screen>form>div:nth-child(4):hover{
+    background-color: #e9edef;
+}
+
     
 
 .img{
