@@ -106,8 +106,46 @@
     width: 48%;
     /* height: 600px; */
     /* border: 1px solid blue; */
-    margin-left: 45vh;
+    margin-left: 43.5vh;
    /* margin-left: 100px; */
+}
+
+#tweets>div:nth-child(1){
+   width: 48%;
+   height: 50px;
+   /* border: 1px solid red;  */
+   display: flex;
+   justify-content: space-around;
+   position: fixed;
+   top: 0px;
+   background-color: rgba(255, 255, 255, 0.9);
+   
+}
+#tweets>div:nth-child(1)>div{
+    /* border: 1px solid red; */
+    width:80% ;
+    border-radius: 30px;
+    padding: 1.5%;
+    background-color: rgba(238, 236, 236, 0.9);
+   
+}
+#tweets>div:nth-child(1)>div>input{
+    width: 95%;
+    padding: 0.5%;
+    border: none;
+    outline: none;
+    background-color:rgba(238, 236, 236, 0.9);
+}
+#tweets>div:nth-child(1)>div>i{
+    width: 5%;
+    align-items: center;
+    padding-left: 1%;
+    color: #536471;
+   
+}
+#tweets>div:nth-child(1)>i{
+    margin-left: 3%;
+    margin-top: 2%;
 }
 #tweets>div:nth-child(2){
     display: flex;
@@ -116,12 +154,17 @@
 
 #tweets>div:nth-child(2)>div{
     /* border: 1px solid blue; */
-    width: 50%;
-    padding: 20px;
+   width: 20%;
+    padding: 2%;
     font-weight: bold;
    text-align: center;
    border-bottom: 1px solid #c8cbcc;
+  /* position: relative; */
+  margin-top: 5%;
+
+   
 }
+
 #tweets>div:nth-child(2)>div:hover{
     background-color: #eff3f4;
 }
@@ -130,76 +173,48 @@
 
 
 #tweets>div:nth-child(3){
-    /* border: 1px solid red; */
+    /* border: 5px solid red; */
+    padding-left: 2%;
     width: 100%;
-    height: 100px;
-    display: flex;
     border-bottom: 1px solid #c8cbcc;
+    margin-bottom: 5%;
 }
 
 #tweets>div:nth-child(3)>div:nth-child(1){
-    width: 10%;
-    /* border: 1px solid red; */
-    height: 100px;
-}
-
-#tweets>div:nth-child(3)>div:nth-child(1)>IMG{
-    width: 80%;
-    border-radius: 50%;
-    margin-top: 2vh;
-    margin-left: 2vh;
-}
-
-#tweets>div:nth-child(3)>div:nth-child(2){
-    width: 90%;
-    /* border: 1px solid red; */
-    height: 100px;
-  
-}
-
-
-#tweets>div:nth-child(3)>div:nth-child(2)>div:nth-child(1)>input{
     width: 100%;
-    padding: 3%;
-    font-size: larger;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    border: none;
-    outline: none;
-}
-#tweets>div:nth-child(3)>div:nth-child(2)>div:nth-child(2){
-    display: flex;
-    justify-content: space-between;
-   margin-top: 1VH;
-    /* padding: 2%; */
-}
-
-#tweets>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>DIV:nth-child(1){
     /* border: 1px solid red; */
-    width: 50%;
-    /* padding: 2%; */
+    /* height: 100px; */
+}
+#tweets>div:nth-child(3)>div:nth-child(2)>div{
+    margin-top: 2%;
+    width: 100%;
+    /* margin-bottom: 2%; */
+}
+#tweets>div:nth-child(3)>div:nth-child(2)>div>p:nth-child(1){
+    display: flex;
+    /* padding-right: 100px; */
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
-#tweets>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>DIV:nth-child(1)>i{
-    margin-left: 10%;
-    color: #1d9bf0;
-    font-size: large;
+#tweets>div:nth-child(3)>div:nth-child(2)>div>p:nth-child(1)>i{
+    /* border: 1px solid red; */
+    margin-left: 78%;
+    
 }
-
-#tweets>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>DIV:nth-child(2){
-   
-    /* padding: 2%; */
-    border-radius: 25px;
-    font-size: 2vh;
-    font-weight: boldER;
-    /* letter-spacing: 1px; */
+#tweets>div:nth-child(3)>div:nth-child(2)>div>p,span{
+  color: #536471;
+  font-weight: 450;  
+}
+#tweets>div:nth-child(3)>div:nth-child(2)>div>h6{
+    font-size:14px;
     color: #0f1419;
-    background-color: #1d9bf0;
-    color: #eff3f4;
-    text-align: center;
-    padding: 1.5%;
-  margin-right: 2vh;
 }
+#tweets>div:nth-child(3)>div:nth-child(2)>div>span:nth-child(4){
+    font-size:medium;
+    color:#1d9bf0;
+}
+
 
 
 
@@ -280,14 +295,14 @@
 }
 
 #otheroptions{
-    width: 30%;
+    width: 32%;
     height: 100%;
     /* height: 600px; */
     /* border: 1px solid blue; */
 
-    overflow:auto;
+    /* overflow:auto; */
     padding: 1rem;
-    position: sticky;
+    position: fixed;
     right: 0;
     border-left: 1px solid #b7b9bb;
     
@@ -299,136 +314,58 @@
     /* border: 1px solid blue; */
     margin: auto;
    
-    
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(1){
-    width: 100%;
-    /* border: 1px solid red; */
-    /* padding: 4%; */
-    border-radius: 25px;
-    color: rgb(161, 161, 161);
    
-    padding-left: 4%;
-    padding-top: 1%;
-    background-color: #eff3f4;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(1)>input{
-    padding: 3%;
-    font-size: large;
-    margin-left: 3vh;
-    border: none;
-    background-color: transparent;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(2){
-    line-height: 30px;
-    /* border: 1px solid black; */
-    padding-bottom: 2%;
-    padding: 3%;
-    border-radius: 25px;
-    margin-top: 5%;
-    background-color: #eff3f4;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(2)>p{
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(2)>p>b{
-    font-size: 25px;
-}
-#otheroptions>div:nth-child(1)>div:nth-child(2)>span{
-    border: 1px solid black;
-    padding: 2.3%;
-    border-radius: 25px;
-    font-size: large;
-    font-weight: bold;
-    background-color: #0f1419;
-    color: white;
     
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(3){
+
+
+#peopletofollow{
     width: 100%;
     /* border: 1px solid red; */
     padding: 5%;
-    margin-top: 3vh;
+    /* margin-top: 1vh; */
     border-radius: 25px;
     background-color: #eff3f4;
-    
+
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(3)>div{
-    margin-top: 3vh;
-}
-#otheroptions>div:nth-child(1)>div:nth-child(3)>div:hover{
-    background-color: #f9fafa;
-}
-
-
-
-
-#otheroptions>div:nth-child(1)>div:nth-child(3)>div>p:nth-child(1){
-    /* width: 100%; */
-    color: #b7b9bb;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(3)>div>p:nth-child(3){
-    /* width: 100%; */
-    color: #b7b9bb;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(3)>div>p:nth-child(2){
-    /* width: 100%; */
-    color: #0f1419;
-    font-size: larger;
-    font-weight: bold;
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(4){
-    width: 100%;
-    /* border: 1px solid red; */
-    padding: 5%;
-    margin-top: 3vh;
-    border-radius: 25px;
-    background-color: #eff3f4;
-    
-}
-
-#otheroptions>div:nth-child(1)>div:nth-child(4)>div{
+#peopletofollow>div {
     width: 100%;
     display: flex;
     margin-top: 5vh;
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(4)>div>img{
+#peopletofollow>div>img {
     width: 15%;
+    height: 50px;
     display: flex;
+    border-radius: 50%;
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(4)>div>p{
+#peopletofollow>div>p {
     font-weight: bold;
     color: #0f1419;
     margin-left: 15px;
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(4)>div>p>span{
+#peopletofollow>div>p>span {
     color: #b7b9bb;
 }
 
-#otheroptions>div:nth-child(1)>div:nth-child(4)>div>span{
+#peopletofollow>div>span {
     margin-left: 15vh;
     height: 30px;
-   /* border: 1px solid red; */
+    /* border: 1px solid red; */
     color: white;
     padding: 2%;
     border-radius: 15px;
     margin-top: 10px;
     background-color: #0f1419;
 }
+
+
+
 
 
 
