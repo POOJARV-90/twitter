@@ -45,14 +45,20 @@
     padding: 10%;
     border-radius: 25px;
     font-size: 3.3vh;
+    
+}
+
+#options>div:nth-child(1)>div:nth-child(2)>div>a{
     color: #0f1419;
+    text-decoration: none;
 }
 #options>div:nth-child(1)>div:nth-child(2)>div:hover{
     background-color: #eff3f4;
 }
 
-#options>div:nth-child(1)>div:nth-child(2)>div>span{
+#options>div:nth-child(1)>div:nth-child(2)>div>a>span{
     margin-left: 10%;
+    text-decoration: none;
 }
 
 #options>div:nth-child(1)>div:nth-child(3){
