@@ -1,0 +1,223 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+#screen{
+    width: 100%;
+    /* height: 600px; */
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#options{
+    width: 24%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    overflow: auto;
+    padding: 1rem;
+    background: white;
+    direction: ltr;
+    position: fixed;
+    left: 0%;
+    
+}
+
+
+#options>div:nth-child(1){
+    width: 85%;
+    /* border: 5px solid black; */
+    margin: auto;
+    /* justify-content: space-around; */
+}
+#options>div:nth-child(1)>div:nth-child(1){
+   color: #1d9bf0;
+   margin-top: 4%;
+}
+
+/* #options>div:nth-child(1)>div:nth-child(2){
+    /* border: 1px solid black; */
+
+
+
+#options>div:nth-child(1)>div:nth-child(2)>div{
+    /* border: 1px solid black; */
+    padding: 10%;
+    border-radius: 25px;
+    font-size: 3.3vh;
+    
+}
+
+#options>div:nth-child(1)>div:nth-child(2)>div>a{
+    color: #0f1419;
+    text-decoration: none;
+}
+#options>div:nth-child(1)>div:nth-child(2)>div:hover{
+    background-color: #eff3f4;
+}
+
+#options>div:nth-child(1)>div:nth-child(2)>div>a>span{
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 3.3vh;
+}
+
+#options>div:nth-child(1)>div:nth-child(3){
+    padding: 10%;
+    border-radius: 25px;
+    font-size: 3vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0f1419;
+    background-color: #1d9bf0;
+    color: #eff3f4;
+    text-align: center;
+}
+#options>div:nth-child(1)>div:nth-child(4){
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+#options>div:nth-child(1)>div:nth-child(4)>div{
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+#options>div:nth-child(1)>div:nth-child(4)>div:nth-child(1){
+    display: flex;
+}
+
+#options>div:nth-child(1)>div:nth-child(4)>div:nth-child(1)>img{
+    /* border: 1px solid black; */
+    width: 30%;
+    border-radius: 50%;
+}
+
+#options>div:nth-child(1)>div:nth-child(4)>div:nth-child(2){
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+#tweets{
+    width: 30%;
+    /* height: 600px; */
+    /* border: 1px solid blue; */
+    margin-left: 52vh;
+   /* margin-left: 100px; */
+}
+#tweets>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5%;
+    
+}
+#tweets>div:nth-child(1)>div{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#tweets>div:nth-child(2){
+    display: flex;
+    border: 1px solid #babcbd;
+    width: 90%;
+    margin: auto;
+    height: 45px;
+    border-radius: 30px;
+    position: relative;
+    align-items: center;
+    color: #677681;
+   
+}
+#tweets>div:nth-child(2)>i{
+    position: absolute;
+    left: 15vh;
+ 
+    
+}
+#tweets>div:nth-child(2)>input{
+    position: absolute;
+    right:12vh ;
+    border: none;
+  
+}
+
+#messages>div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(255, 115, 0); */
+    margin-top: 5%;
+    color:#677681;
+}
+#messages>div:hover{
+    background-color: #eef1f3;
+}
+#messages>div>div:nth-child(1){
+    /* border: 1px solid rgb(51, 255, 0); */
+    width: 15%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#messages>div>div:nth-child(1)>img{
+   width: 100%;
+   border: 1px solid rgb(35, 35, 36);
+   border-radius: 50%;
+ 
+}
+#messages>div>p>strong{
+    color: #0f1419;
+}
+
+
+#otheroptions{
+    width: 45%;
+   
+    height: 700px;
+    /* border: 1px solid blue; */
+
+  
+   
+    position: sticky;
+    position: relative;
+    right: 0;
+    border-left: 1px solid #b7b9bb;
+  padding: 10%;
+    
+}
+#otheroptions>div{
+    position: absolute;
+    /* border: 1px solid blue; */
+    align-items: center;
+    margin-top: 20%;
+    
+  
+  
+}
+
+#otheroptions>div>p:nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+#otheroptions>div>button:nth-child(3){
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: #1d9bf0;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;margin-top: 20px;
+    /* margin-left: 30%; */
+}
+#otheroptions>div>button:nth-child(3):hover{
+    background-color: #1b8cd8;
+}
+
