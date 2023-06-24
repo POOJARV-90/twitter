@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/487f0ebb06.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists/Twitter</title>
+    <link rel="stylesheet" href="/list.css">
+</head>
+<body>
+
+    <div id="screen">
+        <div id="options" >
+
+            <div>
+                <div><i class="fa-brands fa-twitter fa-2x"></i> 
+                </div>
+                
+
+            <div>
+
+                
+                <div><a href="/homepage.html"><i class="fa-solid fa-house-chimney-window fa-lg"></i><span>Home</span></a></div>
+                
+                <div><a href="/twitterexplore.html"><i class="fa-solid fa-magnifying-glass fa-lg"></i><span>Explore</span></a></div>
+                <div><a href="/notificationpg.html"><i class="fa-regular fa-bell fa-lg"></i><span>Notifications</span></a></div>
+                <div><a href="/messagepg.html"><i class="fa-regular fa-envelope fa-lg"></i> <span>Message</span></a></div>
+                <div><a href="/list.html"><i class="fa-regular fa-rectangle-list fa-lg"></i><span>Lists</span></a></div>
+                <div> <a href=""><i class="fa-regular fa-bookmark fa-lg"></i><span>Bookmarks</span></a></div>
+                <div><a href=""><i class="fa-solid fa-circle-check fa-lg"></i><span>Verified</span></a></div>
+                <div> <a href="/profile.html"><i class="fa-regular fa-user fa-lg"></i><span>Profile</span></a></div>
+                <div><a href=""><i class="fa-solid fa-ellipsis fa-lg"></i><span>More</span></a></div>
+
+            </div>
+           
+            <div> Tweets</div>
+
+            <div>
+                <div>
+
+                    <img src="https://i.pinimg.com/736x/c0/b7/fb/c0b7fb5e08b901e82779fa9e2c5d8375.jpg" alt="">
+                    <span>poojarv <br> @taee_p</span>
+                </div>
+
+                <div><i class="fa-solid fa-ellipsis"></i></div>
+
+
+               
+            </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div id="tweets">
+            
+            <div>
+                <i class="fa-solid fa-arrow-left fa-lg"></i>
+                <div><i class="fa-solid fa-magnifying-glass"></i><input type="search" placeholder="Search Twitter"></div>
+                
+                <i class="fa-solid fa-file-circle-plus fa-lg"></i>
+                <i class="fa-solid fa-ellipsis fa-lg"></i>
+
+            </div>
+            
+            <div id="listsub">
+                <h1>
+                    Pinned Lists</h1>
+                    <p>Nothing to see here yet — pin your favorite Lists to access them quickly.</p>
+               
+                
+            </div>
+
+            
+                
+                
+
+
+                   
+                <div id="lists">
+                    <h2>
+                        Discover new Lists</h2>
+
+
+                        <div>
+                            <div> <img src="data:image/png;base64,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" alt="">
+                                <div> <span>
+                                    my safe haven ♡
+                                   
+                                    </span>
+                                <span> ·26 members</span>
+                                <p>  <img src="https://img.freepik.com/free-photo/happiness-wellbeing-confidence-concept-cheerful-attractive-african-american-woman-curly-haircut-cross-arms-chest-self-assured-powerful-pose-smiling-determined-wear-yellow-sweater_176420-35063.jpg"
+                                    alt="">  3K followers including @ouvreiar</p>
+                                </div>
+                                   
+                            </div>
+
+                            <button id="button"> Follow</button>
+                           
+                        </div>
+
+                        <div>
+                            <div> <img src="https://e1.pxfuel.com/desktop-wallpaper/495/398/desktop-wallpaper-best-4-boys-in-the-hood-on-hip-hoodie-boy-thumbnail.jpg" alt="">
+                                <div> <span>
+                                   
+                              lomls
+
+                                    </span>
+                                <span>·30 members</span>
+                                <p>  <img src="https://img.freepik.com/free-photo/happiness-wellbeing-confidence-concept-cheerful-attractive-african-american-woman-curly-haircut-cross-arms-chest-self-assured-powerful-pose-smiling-determined-wear-yellow-sweater_176420-35063.jpg"
+                                    alt="">  
+                                    3K followers including @ouvreia</p>
+                                </div>
+                                   
+                            </div>
+
+                            <button id="button"> Follow</button>
+                           
+                        </div>
+
+                        <div>
+                            <div> <img src="https://www.shutterstock.com/image-vector/blush-pink-watercolor-fluid-painting-260nw-1881715708.jpg" alt="">
+                                <div> <span>
+                                    BTSARMY
+                                    </span>
+                                <span>·37 members</span>
+                                <p>  <img src="https://img.freepik.com/free-photo/happiness-wellbeing-confidence-concept-cheerful-attractive-african-american-woman-curly-haircut-cross-arms-chest-self-assured-powerful-pose-smiling-determined-wear-yellow-sweater_176420-35063.jpg"
+                                    alt="">  13 followers including @GTealStorytlr</p>
+                                </div>
+                                   
+                            </div>
+
+                            <button id="button"> Follow</button>
+                           
+                        </div>
+                      
+                    <p style="color:rgb(20, 72, 243);">See More</p>
+                    
+
+                   
+                
+
+                </div>   
+                <div id="listsub">
+                    <h1>
+                        Your Lists</h1>
+                        <p>You haven't created or followed any Lists. When you do, they'll show up here.</p>
+                   
+                    
+                </div>
+
+
+
+
+
+                
+                
+
+                    
+
+
+            
+
+           
+
+
+            
+
+           
+
+
+
+
+
+        </div>
+
+     
+        
+        <div id="otheroptions">
+
+            <div>
+
+                <div>
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <input type="search" placeholder="Search Twitter">
+
+
+                </div>
+
+                <div>
+                    <p><b>Get Verified</b> <br>
+                        
+
+                     Subscribe to unlock new features.
+                    
+                    </p>
+
+                    <span>Get Verified</span>
+
+                </div>
+
+                <div>
+                    <h2 style="font-size: 20px; padding-left: 5%;padding-top: 8%;">What's Happening</h2>
+
+                    <div>
+                     
+
+
+                    
+                        <p>    Music · Trending</p> 
+                        <p>taekook</p>
+                        <p>21.9K Tweets</p>
+                    </div>
+
+                    <div>
+                        
+
+
+                    
+                        <p> Trending in India</p> 
+                        <p>#jaganannasuraksha</p>
+                        <p>9,281 Tweets</p>
+                    </div>
+
+                    <div>
+                    
+                        <p> Trending in India
+                           
+                            </p> 
+                        <p> #Titanic</p>
+                        <p>1.2M Tweets</p>
+                    </div>
+
+                    <div>
+                    
+                        <p> Entertainment · Trending</p> 
+                        <p>#LordPuneet</p>
+                        <p>9,049 Tweets</p>
+                    </div>
+
+                    <div>
+                    
+                        <p> Entertainment · Trending</p> 
+                        <p>#LordPuneet</p>
+                        <p>9,049 Tweets</p>
+                    </div>
+
+                    <div>
+                    
+                        <p> Trending in India
+                           
+                          </p> 
+                        <p>  #GenshinSpecialProgram</p>
+                        <p>9,049 Tweets</p>
+                    </div>
+
+
+                </div>
+
+                <div>
+
+                    <div>
+
+                        <img src="https://pbs.twimg.com/profile_images/1575211981711507456/HNrSQRCM_400x400.jpg" alt="">
+                        <p>A men <br>
+                            <span>@evolveing</span>
+                        </p>
+
+                        <span>Follow</span>
+                    </div>
+
+                    <div>
+
+                        <img src="https://pbs.twimg.com/profile_images/1608315161705865221/Vzj1On-K_400x400.jpg" alt="">
+                        <p>A men <br>
+                            <span>@evolveing</span>
+                        </p>
+
+                        <span>Follow</span>
+                    </div>
+
+                    <div>
+
+                        <img src="https://pbs.twimg.com/profile_images/1587191579655168004/eNdxL7p-_400x400.jpg" alt="">
+                        <p>A men <br>
+                            <span>@evolveing</span>
+                        </p>
+
+                        <span>Follow</span>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div..>
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
