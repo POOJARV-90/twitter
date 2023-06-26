@@ -13,6 +13,7 @@
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-evenly;
+    /* position: absolute; */
 }
 
 #options {
@@ -115,7 +116,7 @@
     /* border: 1px solid blucole; */
     margin-left: 52vh;
     /* margin-left: 100px; */
-    position: relative;
+    /* position: relative; */
     
 
 
@@ -131,42 +132,46 @@
 #tweets>p:nth-child(2) {
     color: grey;
 }
-
-
-#tweets>div:nth-child(3) {
-    width: 98%;
-    /* height: 500px; */
-    border: 1px solid #898b8b;
-    margin-top: 3%;
-    border-radius: 20px;
-    /* padding: 10%; */
-
-    line-height: 25px;
-    padding: 5%;
-    display: block;
-    position: absolute;
-
+#screen{
+    position: relative;
 }
 
-#tweets>div:nth-child(3)>i {
+
+#popup {
+    width: 45%;
+    /* height: 500px; */
+    border: 1px solid #898b8b;
+    /* margin-top: 3%; */
+    border-radius: 20px;
+   
+    padding: 5%;
+    display:none;
+    position: fixed;
+    top: 3%;
+    z-index: 2;
+    background-color: white;
+   
+}
+
+#popup>i:nth-child(2) {
     margin-left: 50%;
     color: #1d9bf0;
     padding-bottom: 6%;
 }
 
-#tweets>div:nth-child(3)>h1 {
+#popup>h1:nth-child(3) {
      font-size: 30px;
     text-align: center;
     padding-bottom: 5%;
 }
-#tweets>div:nth-child(3)>p {
+#popup>p:nth-child(4)  {
    color: #515559;
    text-align: center;
    padding-bottom: 5%;
 }
 
-#tweets>div:nth-child(3)>div:nth-child(4) {
-    width: 85%;
+#popup>div:nth-child(5) {
+    width: 90%;
     /* height: 150px; */
    
     /* border: 1px solid black; */
@@ -178,16 +183,18 @@
     
 }
 
-#tweets>div:nth-child(3)>div:nth-child(4)>div {
+#popup>div:nth-child(5)>div {
     width: 48%;
     height: 120px;
     border: 1px solid #d0d3d3;
     /* padding:5% ; */padding: 2.5%;
     border-radius: 20px;
     box-shadow: 0 4px 12px 0 rgba(17, 15, 15, 0.05);
+    font-size: small;
+
     
 }
-#tweets>div:nth-child(3)>div:nth-child(4)>div:hover{
+#popup>div:nth-child(5)>div:hover{
     border: 2px solid #159df7;
 }
 
@@ -202,16 +209,16 @@
     font-size: larger;
     margin-bottom: 3%;
 }
-#tweets>div:nth-child(3)>div:nth-child(4)>div>span:nth-child(1),span:nth-child(5){
+#popup>div:nth-child(5)>div>span:nth-child(1),span:nth-child(5){
     color: #515559;
 }
 
-#tweets>div:nth-child(3)>div:nth-child(4)>div>span:nth-child(3){
+#popup>div:nth-child(5)>div>span:nth-child(3){
     font-weight: bold;
     font-size: larger;
 }
 
-#tweets>div:nth-child(3)>p:nth-child(6)>b{
+#popup>p:nth-child(6)>b{
     color:#51b2f3;
     
 }
