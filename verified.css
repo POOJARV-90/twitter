@@ -115,6 +115,7 @@
     /* border: 1px solid blucole; */
     margin-left: 52vh;
     /* margin-left: 100px; */
+    position: relative;
     
 
 
@@ -142,6 +143,8 @@
 
     line-height: 25px;
     padding: 5%;
+    display: block;
+    position: absolute;
 
 }
 
