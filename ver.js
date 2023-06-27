@@ -1,7 +1,7 @@
-let openpopup = document.getElementById("popup");
+let openpopup = document.getElementById ("popup");
 let verfies = document.getElementById("verify");
 
-verfies.addEventListener("click", function() {
+verfies.addEventListener("click", function open() {
   if (openpopup.style.display === "none") {
     openpopup.style.display = "block";
     // alert("Popup opened");
@@ -10,3 +10,4 @@ verfies.addEventListener("click", function() {
     // alert("Popup closed");
   }
 });
+open()
