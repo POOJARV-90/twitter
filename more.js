@@ -1,13 +1,23 @@
-let openpopup = document.getElementById ("morescreen");
+let closedpopup = document.getElementById("morescreenn");
 let verfies = document.getElementById("moreitems");
 
-verfies.addEventListener("click", function open() {
-  if (openpopup.style.display === "none") {
-    openpopup.style.display = "block";
-    // alert("Popup opened");
-  } else {
-    openpopup.style.display = "none";
-    // alert("Popup closed");
-  }
+verfies.addEventListener("click", function() {
+
+ if (closedpopup.style.display === "none") {
+   closedpopup.style.display = "block";
+ } else {
+   closedpopup.style.display = "none";
+ }
 });
-open()
+
+let newpopup = document.getElementById("Draftconenets");
+let newverfies = document.getElementById("Draft");
+let newclose = document.getElementById("closing");
+
+newverfies.addEventListener("click", function() {
+  newpopup.style.display = "block";
+});
+
+newclose.addEventListener("click", function(){
+  newpopup.style.display = "none";
+});
